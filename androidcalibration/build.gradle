@@ -15,11 +15,12 @@ android {
         externalNativeBuild {
             cmake {
                 cppFlags "-frtti -fexceptions -std=c++11 -O3"
+                abiFilters ('armeabi-v7a')
             }
         }
-        ndk {
-            abiFilters 'armeabi-v7a'
-        }
+//        ndk {
+//            abiFilters 'armeabi-v7a'
+//        }
 
     }
     buildTypes {
@@ -33,11 +34,11 @@ android {
             path 'CMakeLists.txt'
         }
     }
-    sourceSets {
-        main {
-            jniLibs.srcDirs = ['../distribution/libs']
-        }
-    }
+//    sourceSets {
+//        main {
+//            jniLibs.srcDirs = ['../distribution/libs']
+//        }
+//    }
 }
 
 dependencies {
