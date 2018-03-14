@@ -133,7 +133,8 @@ public class MainActivity extends Activity implements CvCameraViewListener2, OnT
     public boolean onPrepareOptionsMenu (Menu menu) {
         super.onPrepareOptionsMenu(menu);
         menu.findItem(R.id.preview_mode).setEnabled(true);
-        if (!mCalibrator.isCalibrated())
+        Log.e("qianliliang","test onPrepareOptionsMenu" +(mCalibrator != null));
+        if (mCalibrator != null && !mCalibrator.isCalibrated())
             menu.findItem(R.id.preview_mode).setEnabled(false);
 
         return true;
