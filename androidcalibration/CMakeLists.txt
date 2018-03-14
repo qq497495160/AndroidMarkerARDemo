@@ -3,8 +3,8 @@ cmake_minimum_required(VERSION 3.4.1)
 set(distribution_DIR ${CMAKE_SOURCE_DIR}/../distribution)
 
 # set add lib
-include(AndroidNdkModules)
-android_ndk_import_module_cpufeatures()
+#include(AndroidNdkModules)
+#android_ndk_import_module_cpufeatures()
 
 add_library(
     caffe2
@@ -79,6 +79,6 @@ target_link_libraries(native-opencv
                       NNPACK
                       glog
                       protobuf
-                      cpufeatures
+                      #cpufeatures
 
                       )

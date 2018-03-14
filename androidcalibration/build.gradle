@@ -36,7 +36,8 @@ android {
     }
 //    sourceSets {
 //        main {
-//            jniLibs.srcDirs = ['../distribution/libs']
+//            jniLibs.srcDirs = ['jniLibs']
+//            jni.srcDirs = ['jniLibs']
 //        }
 //    }
 }
