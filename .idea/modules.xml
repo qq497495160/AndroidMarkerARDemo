@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OpenCVTest.iml" filepath="$PROJECT_DIR$/OpenCVTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidMarkerARDemo.iml" filepath="$PROJECT_DIR$/AndroidMarkerARDemo.iml" />
+      <module fileurl="file://C:\Users\Client007\Desktop\000_temp\AndroidMarkerARDemo\OpenCVTest.iml" filepath="C:\Users\Client007\Desktop\000_temp\AndroidMarkerARDemo\OpenCVTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidcalibration/androidcalibration.iml" filepath="$PROJECT_DIR$/androidcalibration/androidcalibration.iml" />
+      <module fileurl="file://C:\Users\Client007\Desktop\000_temp\AndroidMarkerARDemo\androidcalibration\androidcalibration.iml" filepath="C:\Users\Client007\Desktop\000_temp\AndroidMarkerARDemo\androidcalibration\androidcalibration.iml" />
       <module fileurl="file://$PROJECT_DIR$/mathlib/mathlib.iml" filepath="$PROJECT_DIR$/mathlib/mathlib.iml" />
+      <module fileurl="file://C:\Users\Client007\Desktop\000_temp\AndroidMarkerARDemo\mathlib\mathlib.iml" filepath="C:\Users\Client007\Desktop\000_temp\AndroidMarkerARDemo\mathlib\mathlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" filepath="$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" />
+      <module fileurl="file://C:\Users\Client007\Desktop\000_temp\AndroidMarkerARDemo\openCVLibrary320\openCVLibrary320.iml" filepath="C:\Users\Client007\Desktop\000_temp\AndroidMarkerARDemo\openCVLibrary320\openCVLibrary320.iml" />
     </modules>
   </component>
 </project>
